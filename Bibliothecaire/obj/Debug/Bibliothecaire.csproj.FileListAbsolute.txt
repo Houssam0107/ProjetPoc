@@ -1,0 +1,9 @@
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\bin\Debug\Bibliothecaire.exe.config
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\bin\Debug\Bibliothecaire.exe
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\bin\Debug\Bibliothecaire.pdb
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\bin\Debug\IRemote.dll
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\bin\Debug\IRemote.pdb
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\obj\Debug\Bibliothecaire.csproj.CoreCompileInputs.cache
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\obj\Debug\Bibliothecaire.csproj.CopyComplete
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\obj\Debug\Bibliothecaire.exe
+D:\POC\Mini-projet\ProjetPoc\Bibliothecaire\obj\Debug\Bibliothecaire.pdb

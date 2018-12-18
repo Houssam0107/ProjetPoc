@@ -1,0 +1,10 @@
+D:\POC\Mini-projet\ProjetPoc\Serveur\bin\Debug\Serveur.exe.config
+D:\POC\Mini-projet\ProjetPoc\Serveur\bin\Debug\Serveur.exe
+D:\POC\Mini-projet\ProjetPoc\Serveur\bin\Debug\Serveur.pdb
+D:\POC\Mini-projet\ProjetPoc\Serveur\bin\Debug\IRemote.dll
+D:\POC\Mini-projet\ProjetPoc\Serveur\bin\Debug\IRemote.pdb
+D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.csprojAssemblyReference.cache
+D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CoreCompileInputs.cache
+D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CopyComplete
+D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.exe
+D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.pdb

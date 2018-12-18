@@ -1,0 +1,6 @@
+D:\POC\Mini-projet\ProjetPoc\IRemote\bin\Debug\IRemote.dll
+D:\POC\Mini-projet\ProjetPoc\IRemote\bin\Debug\IRemote.pdb
+D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.csprojAssemblyReference.cache
+D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.csproj.CoreCompileInputs.cache
+D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.dll
+D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.pdb

@@ -1,0 +1,9 @@
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.exe.config
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.exe
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.pdb
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\bin\Debug\IRemote.dll
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\bin\Debug\IRemote.pdb
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CoreCompileInputs.cache
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CopyComplete
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.exe
+D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.pdb
