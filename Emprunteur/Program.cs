@@ -14,7 +14,7 @@ namespace Emprunteur
     {
         static void Main(string[] args)
         {
-
+            
 
             TcpChannel cnl = new TcpChannel();
             ChannelServices.RegisterChannel(cnl, false);
@@ -24,7 +24,9 @@ namespace Emprunteur
             {
                 Console.WriteLine(((Ouvrage)r[i]).getType());
             }
-
+            
+            
+        
             Console.ReadLine();
             
         }

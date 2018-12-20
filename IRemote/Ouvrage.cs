@@ -9,26 +9,26 @@ namespace IRemote
     [Serializable]
     public class Ouvrage
     {
-        String[] mots_cle ,auteurs ;
+        String mots_cle ,auteurs ;
         String titre,theme,type;
-        int id_ouvrage;
+        string code_ouvrage;
 
-        public Ouvrage(string[] mots_cle, string[] auteurs, string titre, string theme,string type, int id_ouvrage)
+        public Ouvrage(string mots_cle, string auteurs, string titre, string theme,string type, string code_ouvrage)
         {
             this.mots_cle = mots_cle;
             this.auteurs = auteurs;
             this.titre = titre;
             this.theme = theme;
             this.type = type;
-            this.id_ouvrage = id_ouvrage;
+            this.code_ouvrage = code_ouvrage;
         }
-        public int getId_ouvrage()
+        public string getCode_ouvrage()
         {
-            return id_ouvrage;
+            return code_ouvrage;
         }
-        public void setId_ouvrage(int id_ouvrage)
+        public void setCode_ouvrage(string code_ouvrage)
         {
-            this.id_ouvrage = id_ouvrage;
+            this.code_ouvrage = code_ouvrage;
         }
         public string getType()
         {
@@ -38,11 +38,11 @@ namespace IRemote
         {
             this.type = type;
         }
-        public void setMots_cle(String [] mots_cle)
+        public void setMots_cle(String  mots_cle)
         {
             this.mots_cle = mots_cle;
         }
-        public void setAuteurs(string[] auteurs)
+        public void setAuteurs(string auteurs)
         {
             this.auteurs = auteurs;
         }
@@ -54,11 +54,11 @@ namespace IRemote
         {
             this.theme = theme;
         }
-        public String [] getMots_cle()
+        public String getMots_cle()
         {
             return mots_cle;
         }
-        public string[] getAuteurs()
+        public string getAuteurs()
         {
             return auteurs;
 

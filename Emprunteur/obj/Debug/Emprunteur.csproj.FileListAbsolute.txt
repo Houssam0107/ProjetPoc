@@ -7,3 +7,13 @@ D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CoreCompileI
 D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CopyComplete
 D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.exe
 D:\POC\Mini-projet\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.exe.config
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\bin\Debug\Emprunteur.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\bin\Debug\IRemote.dll
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\bin\Debug\IRemote.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csprojAssemblyReference.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CoreCompileInputs.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.csproj.CopyComplete
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\Emprunteur\obj\Debug\Emprunteur.pdb

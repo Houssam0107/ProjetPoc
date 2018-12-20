@@ -8,3 +8,14 @@ D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CoreCompileInputs.
 D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CopyComplete
 D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.exe
 D:\POC\Mini-projet\ProjetPoc\Serveur\obj\Debug\Serveur.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\Serveur.exe.config
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\Serveur.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\Serveur.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\IRemote.dll
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\MySql.Data.DLL
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\bin\Debug\IRemote.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\obj\Debug\Serveur.csprojAssemblyReference.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CoreCompileInputs.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\obj\Debug\Serveur.csproj.CopyComplete
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\obj\Debug\Serveur.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\Serveur\obj\Debug\Serveur.pdb

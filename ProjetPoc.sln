@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliothecaire", "Bibliothe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emprunteur", "Emprunteur\Emprunteur.csproj", "{31367527-55CB-4D5B-8F31-3632F3E92410}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientBibliothecaire", "ClientBibliothecaire\ClientBibliothecaire.csproj", "{C4C967F0-A2FB-40AF-884F-6E8B5D391E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{31367527-55CB-4D5B-8F31-3632F3E92410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31367527-55CB-4D5B-8F31-3632F3E92410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31367527-55CB-4D5B-8F31-3632F3E92410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C967F0-A2FB-40AF-884F-6E8B5D391E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C967F0-A2FB-40AF-884F-6E8B5D391E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C967F0-A2FB-40AF-884F-6E8B5D391E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C967F0-A2FB-40AF-884F-6E8B5D391E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

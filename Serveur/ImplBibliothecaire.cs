@@ -5,118 +5,119 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IRemote;
+using MySql.Data.MySqlClient;
 
 namespace Serveur
 {
-    class ImplBibliothecaire : MarshalByRefObject, IBibliothecaire , IEmprunteur
+    class ImplBibliothecaire : MarshalByRefObject , IBibliothecaire , IEmprunteur
     {
-        ArrayList reservations = new ArrayList();
-        ArrayList ouvrages = new ArrayList();
+
+        MySqlConnection MySqlConnection = new MySqlConnection();
+        String connection_string = "server=localhost;database=poc;UserId=root";
+        MySqlCommand mySqlCommand = new MySqlCommand();
+        public ImplBibliothecaire()
+        {
+            
+            MySqlConnection.ConnectionString = connection_string;
+            
+        }
+
         public bool ajouter_ouvrage(Ouvrage ouvrage)
         {
-            for(int i = 0;i<ouvrages.Count;i++)
+            try
             {
-                if(((Ouvrage)ouvrages[i]).getId_ouvrage()== ouvrage.getId_ouvrage())
+                string commande = String.Format("insert into ouvrage values ( '{0}' , '{1}' , '{2}' , '{3}' , '{4}' , '{5}')", ouvrage.getCode_ouvrage(), ouvrage.getTitre(), ouvrage.getAuteurs(), ouvrage.getTheme(), ouvrage.getType(), ouvrage.getMots_cle());
+                mySqlCommand.Connection = MySqlConnection;
+                mySqlCommand.CommandText = commande;
+                MySqlConnection.Open();
+
+                int i = mySqlCommand.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }catch(Exception e)
+            {
+                return false;
+            }
+            Console.ReadLine();
+            MySqlConnection.Close();
+            
+                
+        }
+
+        public bool authentification(Compte compte)
+        {
+            try
+            {
+                string commande = String.Format("select * into compte where user = '"+compte.getUsername()+"'");
+                mySqlCommand.Connection = MySqlConnection;
+                mySqlCommand.CommandText = commande;
+                MySqlConnection.Open();
+
+                MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+                if (mySqlDataReader.Read())
+                {
+                    if (compte.getUsername() == mySqlDataReader["user"] && compte.getMot_de_passe() == mySqlDataReader["passe"])
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                    
+                }
+                else
                 {
                     return false;
                 }
             }
-            ouvrages.Add(ouvrage);
-            return true;
-                
-        }
-
-        public Ouvrage modifier_ouvrage(int id_ouvrage)
-        {
-            for (int i = 0; i < ouvrages.Count; i++)
+            catch (Exception e)
             {
-                if (((Ouvrage)ouvrages[i]).getId_ouvrage() == id_ouvrage)
-                {
-                    return (Ouvrage) ouvrages[i];
-                }
+                return false;
             }
-            return null;
-        }
-
-        public bool supprimer_ouvrage(int id_ouvrage)
-        {
-            for (int i = 0; i < ouvrages.Count; i++)
-            {
-                if (((Ouvrage)ouvrages[i]).getId_ouvrage() == id_ouvrage)
-                {
-                    ouvrages.Remove(ouvrages[i]);
-                    return true;
-                }
-            }
-            return false;
+            Console.ReadLine();
+            MySqlConnection.Close();
         }
 
         public ArrayList consulte()
         {
-            return ouvrages;
+            throw new NotImplementedException();
         }
 
-        public ArrayList recherche_titre(string titre)
+        public Ouvrage modifier_ouvrage(int id_ouvrage)
         {
-            ArrayList res = new ArrayList();
-            for(int i = 0; i < ouvrages.Count; i++)
-            {
-                if (((Ouvrage)ouvrages[i]).getTitre() == titre)
-                {
-                    res.Add(ouvrages[i]);
-                }
-            }
-            return res;
+            throw new NotImplementedException();
         }
 
         public ArrayList recherche_auteur(string auteur)
         {
-            ArrayList res = new ArrayList();
-            for(int i = 0; i < ouvrages.Count; i++)
-            {
-                for(int j = 0; j < ((Ouvrage)ouvrages[i]).getAuteurs().Length; j++)
-                {
-                    if(((Ouvrage)ouvrages[i]).getAuteurs()[j] == auteur)
-                    {
-                        res.Add(ouvrages[i]);
-                    }
-                }
-            }
-            return res;
+            throw new NotImplementedException();
         }
 
         public ArrayList recherche_mot_cle(string mot_cle)
         {
-            ArrayList res = new ArrayList();
-            for (int i = 0; i < ouvrages.Count; i++)
-            {
-                for (int j = 0; j < ((Ouvrage)ouvrages[i]).getMots_cle().Length; j++)
-                {
-                    if (((Ouvrage)ouvrages[i]).getMots_cle()[j] == mot_cle)
-                    {
-                        res.Add(ouvrages[i]);
-                    }
-                }
-            }
-            return res;
+            throw new NotImplementedException();
         }
 
         public ArrayList recherche_theme(string theme)
         {
-            ArrayList res = new ArrayList();
-            for (int i = 0; i < ouvrages.Count; i++)
-            {
-                if (((Ouvrage)ouvrages[i]).getTheme() == theme)
-                {
-                    res.Add(ouvrages[i]);
-                }
-            }
-            return res;
+            throw new NotImplementedException();
         }
 
-        /*public bool reservation(int id_emprunteur, int ouvrage)
+        public ArrayList recherche_titre(string titre)
         {
-               
-        }*/
+            throw new NotImplementedException();
+        }
+
+        public bool supprimer_ouvrage(int id_ouvrage)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

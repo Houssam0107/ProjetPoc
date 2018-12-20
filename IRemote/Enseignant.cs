@@ -6,62 +6,27 @@ using System.Threading.Tasks;
 
 namespace IRemote
 {
-    public class Enseignant
+    public class Enseignant : Emprunteur
     {
-        int grade;
-        String nom, prenom, matricule;
-        Compte compte;
+         
+        String grade;
+        
 
-        public Enseignant(int grade, string nom, string prenom, string matricule, Compte compte)
+        public Enseignant(String grade, string matricule, string nom, string prenom, Compte compte):base(matricule, nom, prenom, compte)
         {
+            
             this.grade = grade;
-            this.nom = nom;
-            this.prenom = prenom;
-            this.matricule = matricule;
-            this.compte = compte;
-        }
-
-        public void setCompte(Compte compte)
-        {
-            this.compte = compte;
-        }
-
-        public Compte getCompte()
-        {
-            return compte;
         }
         
-        public void setMatricule(String matricule)
-        {
-            this.matricule = matricule;
-        }
-        public string getMatricule()
-        {
-            return matricule;
-        }
-        public void setGrade(int grade)
+       
+        public void setGrade(String grade)
         {
             this.grade = grade;
         }
-        public int getGrade()
+        public String getGrade()
         {
             return grade;
         }
-        public void setNom(String nom)
-        {
-            this.nom = nom;
-        }
-        public void setPrenom(String prenom)
-        {
-            this.prenom = prenom;
-        }
-        public String getNom()
-        {
-            return nom;
-        }
-        public String getPrenom()
-        {
-            return prenom;
-        }
+        
     }
 }

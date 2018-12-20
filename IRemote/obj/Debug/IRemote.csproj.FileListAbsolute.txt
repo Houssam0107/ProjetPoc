@@ -4,3 +4,9 @@ D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.csprojAssemblyReference.c
 D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.csproj.CoreCompileInputs.cache
 D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.dll
 D:\POC\Mini-projet\ProjetPoc\IRemote\obj\Debug\IRemote.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\bin\Debug\IRemote.dll
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\bin\Debug\IRemote.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\obj\Debug\IRemote.csprojAssemblyReference.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\obj\Debug\IRemote.csproj.CoreCompileInputs.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\obj\Debug\IRemote.dll
+C:\Users\rania\Documents\GitHub\ProjetPoc\IRemote\obj\Debug\IRemote.pdb

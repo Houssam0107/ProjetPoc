@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IRemote;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Remoting;
@@ -13,18 +14,20 @@ namespace Serveur
     {
         static void Main(string[] args)
         {
-            try
-            {
-                TcpChannel cnl = new TcpChannel(1234);
-                ChannelServices.RegisterChannel(cnl, false);
-                RemotingConfiguration.RegisterWellKnownServiceType(typeof(ImplBibliothecaire), "obj", WellKnownObjectMode.Singleton);
-                Console.WriteLine("serveur demarrer");
-                Console.ReadLine();
-            } catch(Exception e)
-            {
-                Console.WriteLine("erreur : " + e);
-                Console.ReadLine();
-            }
+             try
+             {
+                 TcpChannel cnl = new TcpChannel(1234);
+                 ChannelServices.RegisterChannel(cnl, false);
+                 RemotingConfiguration.RegisterWellKnownServiceType(typeof(ImplBibliothecaire), "obj", WellKnownObjectMode.Singleton);
+                 Console.WriteLine("serveur demarrer");
+                 Console.ReadLine();
+             } catch(Exception e)
+             {
+                 Console.WriteLine("erreur : " + e);
+                 Console.ReadLine();
+             }
+
+            
         }
         
     }

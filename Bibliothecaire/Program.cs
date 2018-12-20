@@ -13,14 +13,14 @@ namespace Bibliothecaire
     {
         static void Main(string[] args)
         {
-            try
+           /* try
             {
                 TcpChannel cnl = new TcpChannel();
                 ChannelServices.RegisterChannel(cnl, false);
                 IBibliothecaire obj = (IBibliothecaire)Activator.GetObject(typeof(IBibliothecaire), "tcp://localhost:1234/obj");
                 String[] m = { "salam" , "bonjour"};
                 String[] a = { "rania", "oussama" , "mohamed amine" };
-                Ouvrage o = new Ouvrage(m, a, "revision", "poc", "memoire", 1);
+                Ouvrage o = new Ouvrage(, a, "revision", "poc", "memoire", 1);
 
                 Boolean b = obj.ajouter_ouvrage(o);
                 Console.WriteLine(b);
@@ -29,7 +29,7 @@ namespace Bibliothecaire
             {
                 Console.WriteLine("erreur : " + e);
                 Console.ReadLine();
-            }
+            }*/
         }
     }
 }

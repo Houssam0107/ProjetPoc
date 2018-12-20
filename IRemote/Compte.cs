@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace IRemote
 {
+    [Serializable]
     public class Compte
     {
         string usename, mot_de_passe;

@@ -1,0 +1,14 @@
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\bin\Debug\ClientBibliothecaire.exe.config
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\bin\Debug\ClientBibliothecaire.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\bin\Debug\ClientBibliothecaire.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.csprojAssemblyReference.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.AjouterOuvrage.resources
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.Properties.Resources.resources
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.csproj.GenerateResource.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.csproj.CoreCompileInputs.cache
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.exe
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\bin\Debug\IRemote.dll
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\bin\Debug\IRemote.pdb
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.csproj.CopyComplete
+C:\Users\rania\Documents\GitHub\ProjetPoc\ClientBibliothecaire\obj\Debug\ClientBibliothecaire.Authentification.resources
